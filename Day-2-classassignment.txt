@@ -1,0 +1,13 @@
+Class-Assignment 1) Create a Vechicle class with two functions ,create car,bike as a child class using super keyword call the parent method 
+
+Class -Assignment 2)write class named as BankAccount 
+variables :
+accountnumber,balance
+
+functions :
+deposit
+getbalance 
+
+create a object 
+access public variable
+access private variable 

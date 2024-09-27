@@ -1,0 +1,143 @@
+OOPS:Encapuslation -->Private variable will help you 
+Iheritance syntax:
+
+Class childclassname(parentclassname):
+
+Class Vehicle :  --->Parent class (or) super class 
+
+#Common functionalities & Attributes of Vehicle 
+
+Engine; 
+Break;
+Accelerator ;
+
+Apply break():
+
+Fill fuel ():
+
+
+class car :(Vechile)--->Child class  ---->Inheritance   --->single inheritance
+
+super().  -->is a keyword to access parent class function or variable 
+super().break;
+
+class Bike :(Vechicle,car)    --->multiple inheritance 
+Engine  //normal variable 
+__Engine //Private variable  
+Break;
+Accelerator ;
+
+Apply break():
+
+Fill fuel ():
+
+Class motorcycle:(bike)
+
+Engine; 
+Break;
+Accelerator ;
+
+Apply break():
+
+Fill fuel ():
+
+To avoid this reduency what happen python introduce us concept called inheritance :
+
+class motorbike:(motorcycle)
+
+class motortrain:(motorcycle)
+
+
+---------------------------------------------------------------------------------------------
+
+Instance variable  :
+
+It's accessable only in the class level
+you can access within that class or subclass according to the (private,public,Default)
+
+
+Class level variable : (or) Global variable -->access from entire program 
+
+----------------------------------------------------------------------------------------------
+f -->formatted string -->python 3.6+
+
+f"some text{expression} more text"
+
+(f"{name} {sound}) //will work
+----------------------------------------------------------------------------------------------
+
+Credit card : super class
+
+
+partialpayment()  :decleration
+
+fullpayment()
+
+payment -->sub class
+
+@overridden  --->decorator 
+
+partialpayment (){  :definition
+print ( "aksjcnilug  ")       -->
+}
+
+Encapuslation :Private  --->headsup about decorator
+-----------------------------------------------------------------------------------------------
+Encapuslation : It's binding everything in a single unit .
+
+Reduce the reduenancy,security 
+
+Credit card :
+ 	Schema  //Normal variable 
+ 	__Limit  //private variable 
+
+def limit() //normal method
+
+def __limit() //Private method 
+
+Syntax:
+
+__Varaiable name
+__Function name
+
+-----------------------------------------------------------------------------------------------
+
+Decorators :
+func():
+	pass
+
+def my_decorator(func):  ==>func -->is another function
+	def wrapper():
+	print ("something is happening before func call")
+	func() # call the function
+	print("something is happening after func call")
+
+print() //built in function
+
+@decorator name //syntax
+
+
+
+@my_decorator
+def say_hello():  //decorated fun
+	print("Hello")
+say_hello() //calling decorated fun
+
+output:
+something is happening before func call
+Hello
+something is happening after func call
+
+-----------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
