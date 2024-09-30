@@ -1,0 +1,57 @@
+Day-3:
+Class assignments:
+1. Classes and Objects
+Problem Statement: Create a Book class that represents a book in a library. The class should have the following attributes:
+title (string)
+author (string)
+pages (integer)
+Include a method called get_info() that returns a string containing the book's title, author, and number of pages. Instantiate an object of the Book class and print its information using the get_info() method.
+-------------------------------------------------------------------------------------------------
+2. Inheritance
+Problem Statement: Design a Vehicle class with attributes make and model. Create a subclass called Car that inherits from Vehicle and adds an attribute for number_of_doors. Implement a method car_info() in the Car class that returns a string with the vehicle's make, model, and number of doors. Create an instance of Car and print its information.
+---------------------------------------------------------------------------------------------------
+3. Encapsulation
+Problem Statement: Create a Student class with private attributes name (string) and grade (float). Include methods to set and get these attributes:
+set_name(name: str)
+get_name()
+set_grade(grade: float)
+get_grade()
+Ensure that the set_grade method raises a ValueError if the grade is less than 0 or greater than 100. Instantiate a Student object, set its attributes, and print the details.
+--------------------------------------------------------------------------------------------------
+4. Polymorphism
+Problem Statement: Define a base class Animal with a method sound(). Create two derived classes, Dog and Cat, that override the sound() method to return "Woof!" and "Meow!" respectively. Instantiate both classes and demonstrate polymorphism by calling the sound() method on each object.
+--------------------------------------------------------------------------------------------------
+5. Abstraction
+Problem Statement: Create an abstract class Appliance with an abstract method turn_on(). Implement two subclasses, WashingMachine and Refrigerator, that provide specific implementations for the turn_on() method, printing messages like "Washing machine is now running." and "Refrigerator is cooling." Create instances of both classes and call their turn_on() methods.
+------------------------------------------------------------------------------------------------
+1. Class and Object - Banking System (Account Management)
+Assignment:
+Create a BankAccount class with the following:
+
+Attributes: account_number, balance
+Methods: deposit(), withdraw(), get_balance()
+Create an object of BankAccount, deposit money, withdraw money, and print the current balance.
+-----------------------------------------------------------------------------------------------
+2. Inheritance - Credit Card and Loan System
+Assignment:
+Create a LoanAccount class that inherits from BankAccount. It should have an additional attribute loan_balance. Add methods apply_for_loan() and repay_loan().
+
+Create a CreditCard class that also inherits from BankAccount. It should have an additional attribute credit_limit. Add methods make_purchase() and pay_credit().
+
+-------------------------------------------------------------------------------------------------
+3. Polymorphism - Multiple Loan Types
+Assignment:
+Create two types of loans: HomeLoan and CarLoan, both inheriting from a LoanAccount class. Each should have a calculate_interest() method, but the interest rate should differ between the two loan types.
+
+Demonstrate how polymorphism works by creating objects of HomeLoan and CarLoan, calling their calculate_interest() methods.
+---------------------------------------------------------------------------------------------------
+4.Abstraction - Loan Processing System
+Assignment:
+Create an abstract class Loan that has an abstract method apply_for_loan(). Create two subclasses PersonalLoan and BusinessLoan that implement this method in their own way.
+
+Use Python’s abc module to create the abstract class.
+---------------------------------------------------------------------------------------------------
+5.Encapsulation - Secure Credit Card System
+Assignment:
+Create a CreditCard class that encapsulates the __pin and __balance attributes. Use getters and setters to access and modify these private attributes. Include validation in the setter to ensure the pin is exactly 4 digits.
+---------------------------------------------------------------------------------------------------

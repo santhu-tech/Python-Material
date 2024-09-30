@@ -1,0 +1,139 @@
+Day-2:
+Recap about yesterday's session :
+Inheritance -->super class(or)parent class ,Child class 
+  --super --->super variable access ,method access
+Syntax: class childclassname(parentclassname):
+ 
+Encapsulation -->single unit ,security purpose  @Property
+	Private variable --> __variablename
+	Protected variable -->_variablename,you can access in the subclasses 
+
+decorators :@decoratorsname -->pytnonic way of explaining the method concept 
+
+Polymorphism -->method overriding concept 
+
+----------------------------------------------------------------------------
+Day-3 :
+Abstraction python
+Exception handling  --->try ,except,finally,rasie 
+File processing   --->r,w,r+,w ,with ->context 
+Hands-on practices 
+
+Abstraction in python:
+Hiding the internal details of the object ,only exposing the essential features 
+
+(to hide the unnecceary details, you can only the essential features) 
+
+abstract classes and interfaces .
+
+abc (Abstract Base Classes) module via this you can achive abstraction
+
+abc module ABC -Class ,a
+
+module :
+
+single python file will be there 
+
+mathoperation.py
+
+def add(a,b)
+	return a+b
+def subtract(a,b)
+	return a-b 
+
+
+
+import mathoperation.py
+
+result=mathoperation.add(2,3)
+print(result) #o/p:5 
+
+Library:
+
+Collections of Modules 
+
+import numpy as np
+
+arr=np.array[1,2,3,4,5]
+print(arr)
+
+--------------------------------------------------------------------------------------------
+
+Abstract class you cant create the object 
+--------------------------------------------------------------------------------------------
+
+file processing 
+
+log file 
+
+open the file 
+
+file =open("filename" ,"mode")
+
+Modes :
+r-->default mode .Read only purpose 
+r+ -->both reading and writing 
+w -->writing only .if file exist it will modify there ,if doesn't exist it will create the new file
+a-->Append (add anything it will add in the end off the file )
+b -->binary mode 
+x --> Exclusive creation
+----------------------------------------------------------------------------------------------
+reading smething  from file 
+
+content =file.read() -->Read the entire file 
+file.readline() -->reads one line from the file 
+file.readlines()  -->read all the lines and return in the form of list
+---------------------------------------------------------------------------------------------
+
+split() -->
+len() -->
+----------------------------------------------------------------------------------------------
+Doubts:
+
+Real use of readlines()---> Ex :Find fake emails ,log files 
+real use case of r+  --->read,write -->account number balance --->10000 , 5000 -->particular part
+w ---> it overwrite whole file -->10000 -->delete the 10000 then will show you 5000
+
+-----------------------------------------------------------------------------------------------
+
+Exception handling
+try expect,raise(custom exception),else 
+
+-------------------------------------------------------------------------------------------------
+
+Exception vs Error
+
+Error -->runtime error (syntax,logical error )
+Exception -->program will run smoothly but you never get expected output 
+
+a=10/0
+
+preventing your program from crashing
+you can manage the error carefully with the help of Exceptions 
+
+try:
+    your code 
+except : 
+	error msg to the user 
+finally:
+Raise as a custom exception 
+------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

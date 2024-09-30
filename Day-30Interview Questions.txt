@@ -1,0 +1,31 @@
+Interview Questions:
+
+1. Basic and Conceptual Questions
+What is the difference between __init__ and __new__ in Python?
+How does Python handle object memory management?
+Explain the concept of method resolution order (MRO) in Python.
+What is the difference between a class method, an instance method, and a static method?
+What are @staticmethod and @classmethod? When would you use them?
+
+---------------------------------------------------------------------------------------------
+2. Encapsulation and Data Hiding
+How do you achieve encapsulation in Python, and what are the different levels of access control (public, protected, private)?
+Can Python truly enforce private attributes?
+What is the purpose of using getter and setter methods, and how do they relate to the @property decorator?
+----------------------------------------------------------------------------------------------
+3. Inheritance and Polymorphism
+What is multiple inheritance, and how does Python handle it? Can it lead to problems?
+Explain polymorphism in Python. How is method overloading and method overriding handled?
+What is the difference between super() and direct parent class calls in Python?
+Can you explain how inheritance works with constructors in Python?
+------------------------------------------------------------------------------------------------
+4. Abstraction
+How is abstraction implemented in Python?
+What is the ABC (Abstract Base Class) module in Python, and when should you use it?
+How do abstract methods and classes differ from normal methods and classes?
+-----------------------------------------------------------------------------------------------
+5. Special (Magic/Dunder) Methods
+What are special or "dunder" methods in Python (e.g., __str__, __repr__, __eq__, __call__)?
+Explain the difference between __str__ and __repr__ methods.
+How does operator overloading work in Python, and what magic methods are involved?
+-------------------------------------------------------------------------------------------------
